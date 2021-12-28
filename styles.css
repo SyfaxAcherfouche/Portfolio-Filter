@@ -90,3 +90,22 @@ body {
     width: 100%;
 }
 
+
+/* Responsive */ 
+
+@media(max-width : 767px){
+    .portfolio .portfolio-gallery .item {
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    padding: 8px;
+}
+}
+@media(max-width : 500px){
+    .portfolio .portfolio-gallery .item {
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    padding: 8px;
+}
+}
